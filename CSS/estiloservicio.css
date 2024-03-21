@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+	background-color: whitesmoke;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+
+
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+.servicios{
+    margin: 150px, 70px;
+   
+
+    
+}
+.titulo{
+    margin-top: 10px;
+    font-family: 'Amaranth', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 33px;
+    text-align: center;
+}
+.linea{
+    width: 800px;
+    height: 6px;
+    background: linear-gradient(to right, rgba(62, 164, 237),rgb(13, 102, 166));
+    margin: 10px auto;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+.servicios .contenido{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:20px;
+    
+
+    
+	
+}
+div .imagen{
+    background-color: #348DCE;
+    border-radius: 30px;
+    width: 90%;
+    height: 320px;
+    
+}
+
+.imagen img{
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    margin:0 auto;
+    display:block;
+    max-width: 190px;
+    max-height: 190px;
+    margin-top: 50px;
+  
+
+	
+
+
+}
+
+.imagen p{
+    text-align:center;
+    font-weight: bolder;
+    margin:20px 0;
+	
+
+}
+
+.imagen .boton2{
+    background: linear-gradient(to right, rgba(62, 164, 237),rgb(13, 102, 166));
+    width:100px;
+    padding:15px;
+    border-radius: 10px;
+    text-align: center;
+    margin:auto;
+    color:antiquewhite;
+    text-decoration: none;
+
+    
+}
+
+.boton2 a{
+    color:antiquewhite;
+    text-decoration: none;
+
+}
+
+.imagen .boton2:hover{
+    background-color: #00453F;
+    box-shadow: 5px 5px 5px gray;
+    cursor:pointer;
+
+}
+
+
+
+
+
+@media (max-width:700px){
+	header{
+		flex-direction: column;
+	}
+
+	nav{
+		padding: 10px 0px;
+	}
+
+
+ }
+ .redes{
+	background-color: black;
+	color: white;
+	height: 100px;
+	text-align: center;
+	padding: 20px;
+	min-width: 60%;
+}
+
+
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.calceta { 
+    color: rgb(14, 14, 232);
+}
+
+header {
+    background-color: black;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.6em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover {
+    color: rgb(14, 14, 232);
+}
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #ali {
+        width: 50px;
+        height: 40px;
+        margin: 0 5px;
+    }
+
+
+
+
+
+
+
+
+
+
