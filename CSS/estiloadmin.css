@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+	background-color: whitesmoke;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+
+
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+.form-box{
+    width: 370px;
+    height: 455px;
+    position: relative;
+    margin: 6% auto;
+    background: #348DCE;
+    padding:5px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.modochad{
+    text-align: center;
+}
+
+.btn-lista{
+    margin-left:20%;
+    margin-top: 70px;
+    text-align: center;
+    width: 145px;
+    padding: 10px 30px;
+    cursor:pointer;
+    display:block;
+    background: black;
+    border: 0px;
+    border-radius: 30px;
+    color:white;
+    text-decoration: none;
+}
+
+
+@media (max-width:700px){
+	header{
+		flex-direction: column;
+	}
+
+	nav{
+		padding: 10px 0px;
+	}
+
+
+}
+
+.redes{
+	background-color: black;
+	color: white;
+	height: 100px;
+	text-align: center;
+	padding: 20px;
+	min-width: 60%;
+}
+
+
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.calceta { 
+    color: rgb(14, 14, 232);
+}
+
+header {
+    background-color: black;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.6em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover {
+    color: rgb(14, 14, 232);
+}
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
